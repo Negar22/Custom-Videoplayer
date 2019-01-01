@@ -9,11 +9,11 @@
 /* Begin PBXBuildFile section */
 		B1DE1BB821D53F90009F6B0A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DE1BB721D53F90009F6B0A /* AppDelegate.swift */; };
 		B1DE1BBA21D53F90009F6B0A /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DE1BB921D53F90009F6B0A /* ViewController.swift */; };
-		B1DE1BBD21D53F90009F6B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DE1BBB21D53F90009F6B0A /* Main.storyboard */; };
 		B1DE1BBF21D53F9C009F6B0A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B1DE1BBE21D53F9C009F6B0A /* Assets.xcassets */; };
 		B1DE1BC221D53F9C009F6B0A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DE1BC021D53F9C009F6B0A /* LaunchScreen.storyboard */; };
 		B1DE1BCD21D53F9D009F6B0A /* NegarCustomVideoPlayerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DE1BCC21D53F9D009F6B0A /* NegarCustomVideoPlayerTests.swift */; };
 		B1DE1BD821D53F9D009F6B0A /* NegarCustomVideoPlayerUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = B1DE1BD721D53F9D009F6B0A /* NegarCustomVideoPlayerUITests.swift */; };
+		B1DE1BE621D54078009F6B0A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B1DE1BE521D54078009F6B0A /* Main.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,7 +37,6 @@
 		B1DE1BB421D53F90009F6B0A /* NegarCustomVideoPlayer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NegarCustomVideoPlayer.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DE1BB721D53F90009F6B0A /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		B1DE1BB921D53F90009F6B0A /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
-		B1DE1BBC21D53F90009F6B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		B1DE1BBE21D53F9C009F6B0A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B1DE1BC121D53F9C009F6B0A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B1DE1BC321D53F9C009F6B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -47,6 +46,8 @@
 		B1DE1BD321D53F9D009F6B0A /* NegarCustomVideoPlayerUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = NegarCustomVideoPlayerUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		B1DE1BD721D53F9D009F6B0A /* NegarCustomVideoPlayerUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NegarCustomVideoPlayerUITests.swift; sourceTree = "<group>"; };
 		B1DE1BD921D53F9D009F6B0A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B1DE1BE521D54078009F6B0A /* Main.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main.storyboard; sourceTree = "<group>"; };
+		B1DE1BE721D542AD009F6B0A /* cara.mp4 */ = {isa = PBXFileReference; lastKnownFileType = file; path = cara.mp4; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,9 +98,10 @@
 		B1DE1BB621D53F90009F6B0A /* NegarCustomVideoPlayer */ = {
 			isa = PBXGroup;
 			children = (
+				B1DE1BE721D542AD009F6B0A /* cara.mp4 */,
 				B1DE1BB721D53F90009F6B0A /* AppDelegate.swift */,
 				B1DE1BB921D53F90009F6B0A /* ViewController.swift */,
-				B1DE1BBB21D53F90009F6B0A /* Main.storyboard */,
+				B1DE1BE521D54078009F6B0A /* Main.storyboard */,
 				B1DE1BBE21D53F9C009F6B0A /* Assets.xcassets */,
 				B1DE1BC021D53F9C009F6B0A /* LaunchScreen.storyboard */,
 				B1DE1BC321D53F9C009F6B0A /* Info.plist */,
@@ -193,6 +195,7 @@
 				TargetAttributes = {
 					B1DE1BB321D53F90009F6B0A = {
 						CreatedOnToolsVersion = 10.1;
+						LastSwiftMigration = 1010;
 					};
 					B1DE1BC721D53F9D009F6B0A = {
 						CreatedOnToolsVersion = 10.1;
@@ -229,9 +232,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B1DE1BE621D54078009F6B0A /* Main.storyboard in Resources */,
 				B1DE1BC221D53F9C009F6B0A /* LaunchScreen.storyboard in Resources */,
 				B1DE1BBF21D53F9C009F6B0A /* Assets.xcassets in Resources */,
-				B1DE1BBD21D53F90009F6B0A /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -293,14 +296,6 @@
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
-		B1DE1BBB21D53F90009F6B0A /* Main.storyboard */ = {
-			isa = PBXVariantGroup;
-			children = (
-				B1DE1BBC21D53F90009F6B0A /* Base */,
-			);
-			name = Main.storyboard;
-			sourceTree = "<group>";
-		};
 		B1DE1BC021D53F9C009F6B0A /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
@@ -435,6 +430,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TLMHWFC646;
 				INFOPLIST_FILE = NegarCustomVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
@@ -453,6 +449,7 @@
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = TLMHWFC646;
 				INFOPLIST_FILE = NegarCustomVideoPlayer/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
